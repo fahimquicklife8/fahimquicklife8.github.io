@@ -34,6 +34,11 @@ nav ul li a {
     color: #fff;
 }
 
+nav ul li a:hover, a:hover {
+    color: #4a90e2; /* Modified color for hover state */
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
 }
@@ -62,8 +67,19 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+.intro-text {
+    background-color: #e8e8e8; /* Light grey background for introduction text */
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 75px; /* Circular image for a profile picture */
+    display: block;
+    margin: 20px auto; /* Center the image */
 }
 
 h2 {
