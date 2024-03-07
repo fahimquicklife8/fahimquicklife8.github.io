@@ -7,6 +7,14 @@ body {
     color: #333;
 }
 
+#profile-pic {
+    width: 150px; 
+    height: auto;
+    border-radius: 75px; 
+    display: block;
+    margin: 20px auto; 
+}
+
 header {
     background-color: #333;
     color: #fff;
